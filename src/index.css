@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.App{
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form,.Profile{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+   
+
+    padding:3rem;
+    background-color: white;
+    box-shadow: 0 0 10px 0 lightgrey;
+}
+
+form h5{
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+form h2,.Profile h2{
+    font-size: 30px;
+}
+form input{
+
+    width: 352px;
+height: 45px;
+padding: 0px 12px;
+border-radius: 6px;
+border: 1px solid #DEDEDE;
+}
+
+
+form button{
+
+    width: 352px;
+    height: 45px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+
+background-color:  #463EEA ;
+
+color:white;
+font-weight: 600;
+
+
+}
+
+form p{
+    color: #463EEA;
+    font-size: 14px;
+    text-align: center; 
+}
